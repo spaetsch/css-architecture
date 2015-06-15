@@ -1,0 +1,19 @@
+/* Modules rules should always be allowed to take up 100% width and height is dictated by content. */
+/* a Module is a more discrete component of the page. */
+/* navigation bars and your carousels and your dialogs and your widgets */
+/* want to avoid IDs and element selectors. Only include a selector that includes semantics. */
+
+
+text input
+email
+textarea
+number
+tel
+meter
+audio
+
+
+button group?
+email form?
+
+
