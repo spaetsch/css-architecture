@@ -46,6 +46,19 @@
 
 /* -------- Share on Social Media Module -------- */
 
+.share__heading{
+  margin-bottom:0;
+}
+
+.share__badge{
+  font-size: 2em;
+}
+
+.share {
+  padding:2px;
+  margin:20px;
+}
+
 
 
 /* ------- Merchandise item module -------- */
