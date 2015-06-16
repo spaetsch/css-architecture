@@ -2,7 +2,11 @@
 
 body {
   margin: 4em;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Josefin-Slab', serif;
+}
+
+p {
+  font-size: 1.2em;
 }
 
 a {
@@ -10,6 +14,8 @@ a {
 }
 
 h1, h2 {
+  font-family: 'Rawengulk', serif;
+  font-weight: bold;
   border-bottom: thin solid;
 }
 
