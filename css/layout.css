@@ -1,17 +1,34 @@
-/* example: the header, footer, primary nav, and aside  */
-/* A naming convention that SMACSS imposes is to prefix all layout styles with a l-. For example, .l-header { … }. */
-/* also utility tags here? */
+header, footer {
+  padding: 2em;
+}
 
+header {
+  background-color: #73717F;
+}
 
-#header
+footer {
+  clear: both;
+}
 
-#footer
+main {
+  width: 60%;
+  background-color: #73717F;
+  float: left;
+  padding: 3em;
+}
 
-main
+#sidebar {
+  background-color: #73717F;
+  width: 25%;
+  float: right;
+  padding: 1em;
+}
 
-nav
-
-sidebar
+nav {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: #73B2B1;
+}
 
 
 

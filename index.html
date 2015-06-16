@@ -6,27 +6,57 @@
     <title>CSS Architecture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/module.css">
-
   </head>
   <body>
-    <header>This is a header</header>
+    <header>
+      <p>This is the header</p>
+    </header>
+    <nav>
+      <p>This is the navigation bar</p>
+    </nav>
+    <div id="sidebar">
+      <p>This is the sidebar</p>
+      <p>Here's an unordered list:</p>
+      <ul>
+        <li>List item</li>
+        <li>Another list item</li>
+        <li>List item again</li>
+        <li>List item</li>
+      </ul>
+    </div>
+    <main>
+      <p>This is main</p>
+      <h1>This is h1</h1>
+      <h2>This is h2</h2>
+      <p>This is some p text with a <a href="#">example of some linked text</a>.</p>
+      <p>More p text. Media shoes bridge market dome pistol crypto-katana jeans towards post-soul-delay skyscraper camera. Fetishism bomb marketing media pre-sub-orbital car. Gang Chiba media dead paranoid boat long-chain hydrocarbons marketing corporation lights apophenia stimulate network nodality chrome. Urban tanto receding industrial grade augmented reality youtube warehouse refrigerator network. Military-grade savant-space range-rover pre-garage assassin geodesic.</p>
 
-    <label for="full-name">Text field:</label>
-    <input type="text" id="full-name" name="full-name" role="textbox"><br>
+      <form>
+        <fieldset>
+          <legend>Here's the legend for this fieldset</legend>
+          <label for="text-entry">Text input:</label>
+          <input type="text" id="text-entry" name="text-entry" role="textbox">
 
-    <label for="email">Email address:</label>
-    <input type="email" id="email" name="email" role="textbox"><br>
+          <label for="email-entry">Email input:</label>
+          <input type="email" id="email-entry" name="email-entry" role="textbox">
 
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone"><br>
+          <label for="phone-entry">Phone input:</label>
+          <input type="tel" id="phone-entry" name="phone-entry">
 
-    <button role="button">Test Button</button>
+          <label for="textarea-entry">Multiline text input: </label>
+          <textarea rows="10" cols="50" id="textarea-entry" name="textarea-entry" role="textbox" aria-multiline="true"></textarea>
 
+          <button role="button">Test Button</button>
+        </fieldset>
+      </form>
+      <audio></audio>
+      <video></video>
+
+    </main>
     <footer>This is the footer</footer>
   </body>
 </html>
