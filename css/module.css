@@ -1,0 +1,66 @@
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  height: 1.5em;
+  width: 30em;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color: black;
+}
+
+textarea {
+  min-height: 6em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border: 1px solid #33C3F0;
+  outline: 0;
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+button:focus,
+button:hover {
+  background-color: #50FFF2;
+}
+
+button {
+  display: block;
+  background-color: #73B2B1;
+  border-radius: 5px;
+}
+
+.buttonset button{
+  height: 3em;
+  width: 10em;
+  display: inline;
+  margin: 1em 0;
+  border-radius: 0;
+  float: left;
+}
+
+article .author {
+  text-transform: uppercase;
+  margin-top: -1em;
+}
+
+/* -- TODO
+progress bars: percentage and/or time
+forms: sign-in box, subscribe box  --*/
