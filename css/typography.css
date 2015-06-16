@@ -1,49 +1,41 @@
 @font-face {
    font-family: 'Josefin-Slab';
-   src: url('typography/JosefinSlab-Regular.ttf') format('truetype');
+   src: url('../typography/josefin-slab/JosefinSlab-Regular.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'Quicksand';
-   src: url('typography/Quicksand-Italic.otf') format('truetype');
+   font-family: 'Josefin-Slab';
+   src: url('../typography/josefin-slab/JosefinSlab-Italic.ttf') format('truetype');
    font-weight: normal;
    font-style: italic;
 }
 @font-face {
-   font-family: 'Quicksand';
-   src: url('typography/Quicksand-Bold.otf') format('truetype');
+   font-family: 'Josefin-Slab';
+   src: url('../typography/josefin-slab/JosefinSlab-Bold.ttf') format('truetype');
    font-weight: bold;
    font-style: normal;
 }
 @font-face {
-   font-family: 'Quicksand';
-   src: url('typography/Quicksand-BoldItalic.otf') format('truetype');
+   font-family: 'Josefin-Slab';
+   src: url('../typography/josefin-slab/JosefinSlab-BoldItalic.ttf') format('truetype');
    font-weight: bold;
    font-style: italic;
 }
 
+
+
 @font-face {
-   font-family: 'Nobile';
-   src: url('typography/Nobile-Regular.ttf') format('truetype');
+   font-family: 'Encode-Sans';
+   src: url('../typography/encode-sans/EncodeSans-Regular.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
 }
+
 @font-face {
-   font-family: 'Nobile';
-   src: url('typography/Nobile-Italic.ttf') format('truetype');
-   font-weight: normal;
-   font-style: italic;
-}
-@font-face {
-   font-family: 'Rawengulk';
-   src: url('typography/Rawengulk-Bold.otf') format('truetype');
+   font-family: 'Encode-Sans';
+   src: url('../typography/encode-sans/EncodeSans-Bold.ttf') format('truetype');
    font-weight: bold;
    font-style: normal;
 }
-@font-face {
-   font-family: 'Nobile';
-   src: url('typography/Nobile-MediumItalic.ttf') format('truetype');
-   font-weight: bold;
-   font-style: italic;
-}
+

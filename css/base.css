@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  font-size: 1.2em;
+  font-family: 'Encode-Sans', sans-serif;
 }
 
 a {
@@ -14,7 +14,6 @@ a {
 }
 
 h1, h2 {
-  font-family: 'Rawengulk', serif;
   font-weight: bold;
   border-bottom: thin solid;
 }
