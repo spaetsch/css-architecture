@@ -1,41 +1,39 @@
 @font-face {
-   font-family: 'Josefin-Slab';
-   src: url('../typography/josefin-slab/JosefinSlab-Regular.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
+  font-family: 'Josefin-Slab';
+  src: url('../typography/josefin-slab/JosefinSlab-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-   font-family: 'Josefin-Slab';
-   src: url('../typography/josefin-slab/JosefinSlab-Italic.ttf') format('truetype');
-   font-weight: normal;
-   font-style: italic;
+  font-family: 'Josefin-Slab';
+  src: url('../typography/josefin-slab/JosefinSlab-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 @font-face {
-   font-family: 'Josefin-Slab';
-   src: url('../typography/josefin-slab/JosefinSlab-Bold.ttf') format('truetype');
-   font-weight: bold;
-   font-style: normal;
+  font-family: 'Josefin-Slab';
+  src: url('../typography/josefin-slab/JosefinSlab-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
-   font-family: 'Josefin-Slab';
-   src: url('../typography/josefin-slab/JosefinSlab-BoldItalic.ttf') format('truetype');
-   font-weight: bold;
-   font-style: italic;
-}
-
-
-
-@font-face {
-   font-family: 'Encode-Sans';
-   src: url('../typography/encode-sans/EncodeSans-Regular.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
+  font-family: 'Josefin-Slab';
+  src: url('../typography/josefin-slab/JosefinSlab-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-   font-family: 'Encode-Sans';
-   src: url('../typography/encode-sans/EncodeSans-Bold.ttf') format('truetype');
-   font-weight: bold;
-   font-style: normal;
+  font-family: 'Encode-Sans';
+  src: url('../typography/encode-sans/EncodeSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode-Sans';
+  src: url('../typography/encode-sans/EncodeSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 

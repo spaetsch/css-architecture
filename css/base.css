@@ -1,12 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
-
 body {
   margin: 4em;
-  font-family: 'Josefin-Slab', serif;
-}
-
-p {
-  font-family: 'Encode-Sans', sans-serif;
 }
 
 a {
@@ -14,7 +7,6 @@ a {
 }
 
 h1, h2 {
-  font-weight: bold;
   border-bottom: thin solid;
 }
 
