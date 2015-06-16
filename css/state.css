@@ -5,3 +5,16 @@ a:visited{
 a:hover {
   color: #C5FFF8;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border: 1px solid #33C3F0;
+  outline: 0;
+}
+
+button:focus,
+button:hover {
+  background-color: #50FFF2;
+}

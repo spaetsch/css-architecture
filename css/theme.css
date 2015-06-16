@@ -7,13 +7,11 @@ a {
   color: #50FFF2;
 }
 
-h1,
-h2,
-li {
+h1, h2, li {
   border-color: #73B2B1;
 }
 
-nav {
+nav, button {
   background-color: #73B2B1;
 }
 
@@ -21,4 +19,13 @@ header,
 main,
 #sidebar {
   background-color: #73717F;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background-color: #fff;
+  border-color: #D1D1D1;
+  color: black;
 }
