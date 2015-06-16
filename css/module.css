@@ -59,13 +59,28 @@
   margin:20px;
 }
 
-
-
 /* ------- Merchandise item module -------- */
 
+.product {
+  background-color: gray;
+  display:inline;
+  margin:5px;
+  padding:5px;
+}
 
+.product__img,
+.product__price,
+.product__button {
+  display: block;
+  margin: auto;
+}
+.product__name{
+  font-style: italic;
+}
 
-
+.product__button{
+  font-size: larger;
+}
 
 
 
