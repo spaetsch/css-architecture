@@ -1,66 +1,90 @@
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  height: 1.5em;
-  width: 30em;
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 5px;
-  margin-bottom: 1em;
-  color: black;
+/* ------- Contact form module ------- */
+
+.contact-form {
+  border-width: 1px;
+  padding: 10px;
 }
 
-textarea {
-  min-height: 6em;
-  padding-top: 6px;
-  padding-bottom: 6px;
+.contact-form__message-input{
+  min-height: 10em;
+  width: 100%;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-textarea:focus {
-  border: 1px solid #33C3F0;
-  outline: 0;
-}
-
-label,
-legend {
+.contact-form__button {
   display: block;
-  margin-bottom: 0.5em;
-  font-weight: 600;
 }
 
-fieldset {
-  border-radius: 5px;
-}
+/* Other contact-form classes
+.contact-form__title
 
-button:focus,
-button:hover {
-  background-color: #50FFF2;
-}
+.contact-form__name-label
+.contact-form__name-input
 
-button {
-  display: block;
-  background-color: #73B2B1;
-  border-radius: 5px;
-}
+.contact-form__email-label
+.contact-form__email-input
 
-.buttonset button{
-  height: 3em;
-  width: 10em;
-  display: inline;
-  margin: 1em 0;
-  border-radius: 0;
-  float: left;
-}
+.contact-form__phone-label
+.contact-form__phone-input
 
-article .author {
+.contact-form__message-label
+.contact-form__message-input
+*/
+
+
+/* ------------ Blog post module ------------- */
+
+.blog__author {
   text-transform: uppercase;
   margin-top: -1em;
 }
 
-/* -- TODO
-progress bars: percentage and/or time
-forms: sign-in box, subscribe box  --*/
+/* other blog classes
+.blog__post
+.blog__title
+*/
+
+
+/* -------- Share on Social Media Module -------- */
+
+.share__heading{
+  margin-bottom:0;
+}
+
+.share__badge{
+  font-size: 2em;
+}
+
+.share {
+  padding:2px;
+  margin:20px;
+}
+
+/* ------- Merchandise item module -------- */
+
+.product {
+  background-color: gray;
+  display:inline;
+  margin:5px;
+  padding:5px;
+}
+
+.product__img,
+.product__price,
+.product__button {
+  display: block;
+  margin: auto;
+}
+.product__name{
+  font-style: italic;
+}
+
+.product__button{
+  font-size: larger;
+}
+
+
+
+/* TODO */
+
+/* button bar module */
+/* sign in box module */

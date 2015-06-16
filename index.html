@@ -6,10 +6,17 @@
     <title>CSS Architecture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/typography.css">
+
+    <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/layout.css">
+
     <link rel="stylesheet" href="css/module.css">
+    <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet" href="css/theme.css">
   </head>
   <body>
     <header>
@@ -17,9 +24,69 @@
     </header>
     <nav>
       <p>This is the navigation bar</p>
-
     </nav>
-    <div id="sidebar">
+
+    <main class="eight columns">
+      <p>This is main</p>
+      <form>
+        <fieldset class="contact-form">
+          <legend class="contact-form__title">Contact Form</legend>
+          <label class="contact-form__name-label" for="name-input">Name:</label>
+          <input type="text" class="contact-form__name-input" name="name-input" role="textbox">
+
+          <label class="contact-form__email-label" for="email-input">Email address:</label>
+          <input type="email" class="contact-form__email-input" name="email-input" role="textbox">
+
+          <label class="contact-form__phone-label" for="phone-input">Phone number:</label>
+          <input type="tel" class="contact-form__phone-input" name="phone-input">
+
+          <label class="contact-form__message-label" for="textarea-input">Your message: </label>
+          <textarea class="contact-form__message-input" name="textarea-input" role="textbox" aria-multiline="true"></textarea>
+
+          <button class="contact-form__button" role="button">Send</button>
+        </fieldset>
+      </form>
+
+      <div class="share">
+        <p class="share__heading">Share on social media!</p>
+        <span class="share__badge icon-twitter2"></span>
+        <span class="share__badge icon-facebook2"></span>
+        <span class="share__badge icon-pinterest2"></span>
+        <span class="share__badge icon-tumblr2"></span>
+        <span class="share__badge icon-google-plus2"></span>
+      </div>
+
+
+      <article class="blog__post">
+        <h2 class="blog__title">Blog Post #1 Title</h2>
+        <p class="blog__author">Foober Fooberson</p>
+          <p>Katana apophenia receding media cardboard nano-drone digital assassin. Fluidity smart-assault RAF knife shoes nodality boy girl industrial grade dolphin monofilament crypto-motion city. Pen woman sprawl Shibuya film shoes weathered papier-mache plastic augmented reality assassin shanty town fluidity knife franchise Kowloon wonton soup.</p>
+          <p>Kanji pen military-grade bicycle physical augmented reality Shibuya skyscraper. Assassin sentient market assault decay monofilament pre-concrete order-flow. Lights nodal point-space soul-delay wonton soup silent bridge 3D-printed meta-hacker order-flow towards monofilament DIY. Tiger-team systema meta-geodesic futurity render-farm katana rifle. Dissident spook dolphin Kowloon numinous claymore mine uplink.</p>
+      </article>
+
+      <div class="product four columns">
+        <p class="product__name">Item Name #1</p>
+        <img class="product__img" src="http://placehold.it/150x150">
+        <p class="product__price">$19.99</p>
+        <button class="product__button">Buy!</button>
+      </div>
+
+      <div class="product four columns">
+        <p class="product__name">Item Name #2</p>
+        <img class="product__img" src="http://placehold.it/150x150">
+        <p class="product__price">$4.99</p>
+        <button class="product__button">Buy!</button>
+      </div>
+
+      <div class="product four columns">
+        <p class="product__name">Item Name #3</p>
+        <img class="product__img" src="http://placehold.it/150x150">
+        <p class="product__price">$7.99</p>
+        <button class="product__button">Buy!</button>
+      </div>
+
+    </main>
+    <div class="three columns" id="sidebar">
       <p>This is the sidebar</p>
       <p>Here's an unordered list:</p>
       <ul>
@@ -28,43 +95,17 @@
         <li>List item again</li>
         <li>List item</li>
       </ul>
-    </div>
-    <main>
-      <p>This is main</p>
-      <h1>This is h1</h1>
-      <h2>This is h2</h2>
-      <p>This is some p text with a <a href="#">example of some linked text</a>.</p>
-      <p>More p text. Media shoes bridge market dome pistol crypto-katana jeans towards post-soul-delay skyscraper camera. Fetishism bomb marketing media pre-sub-orbital car. Gang Chiba media dead paranoid boat long-chain hydrocarbons marketing corporation lights apophenia stimulate network nodality chrome. Urban tanto receding industrial grade augmented reality youtube warehouse refrigerator network. Military-grade savant-space range-rover pre-garage assassin geodesic.</p>
-      <form>
-        <fieldset>
-          <legend>Here's the legend for this fieldset</legend>
-          <label for="text-entry">Text input:</label>
-          <input type="text" id="text-entry" name="text-entry" role="textbox">
-
-          <label for="email-entry">Email input:</label>
-          <input type="email" id="email-entry" name="email-entry" role="textbox">
-
-          <label for="phone-entry">Phone input:</label>
-          <input type="tel" id="phone-entry" name="phone-entry">
-
-          <label for="textarea-entry">Multiline text input: </label>
-          <textarea rows="10" cols="50" id="textarea-entry" name="textarea-entry" role="textbox" aria-multiline="true"></textarea>
-
-          <button role="button">Test Button</button>
-        </fieldset>
-      </form>
-      <div class="buttonset">
-        <button>Button 1</button>
-        <button>Button 2</button>
-        <button>Button 3</button>
+      <div class="share">
+        <p class="share__heading">Share on social media!</p>
+        <span class="share__badge icon-twitter2"></span>
+        <span class="share__badge icon-facebook2"></span>
+        <span class="share__badge icon-pinterest2"></span>
+        <span class="share__badge icon-tumblr2"></span>
+        <span class="share__badge icon-google-plus2"></span>
       </div>
-      <article class="blogpost">
-        <h2>Blog Post #1 Title</h2>
-        <p class="author">Foober Fooberson</p>
-          <p>Katana apophenia receding media cardboard nano-drone digital assassin. Fluidity smart-assault RAF knife shoes nodality boy girl industrial grade dolphin monofilament crypto-motion city. Pen woman sprawl Shibuya film shoes weathered papier-mache plastic augmented reality assassin shanty town fluidity knife franchise Kowloon wonton soup.</p>
-          <p>Kanji pen military-grade bicycle physical augmented reality Shibuya skyscraper. Assassin sentient market assault decay monofilament pre-concrete order-flow. Lights nodal point-space soul-delay wonton soup silent bridge 3D-printed meta-hacker order-flow towards monofilament DIY. Tiger-team systema meta-geodesic futurity render-farm katana rifle. Dissident spook dolphin Kowloon numinous claymore mine uplink. </p>
-      </article>
-    </main>
+    </div>
+
+
     <footer>This is the footer</footer>
   </body>
 </html>

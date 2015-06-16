@@ -1,0 +1,39 @@
+body {
+  background-color: #544044;
+  color: white;
+  font-family: 'Encode-Sans', sans-serif;
+
+}
+
+a {
+  color: #50FFF2;
+}
+
+
+h1, h2 {
+  font-family: 'Josefin-Slab', serif;
+  font-weight: bold;
+}
+
+h1, h2, li {
+  border-color: #73B2B1;
+}
+
+nav, button {
+  background-color: #73B2B1;
+}
+
+header,
+main,
+#sidebar {
+  background-color: #73717F;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background-color: #fff;
+  border-color: #D1D1D1;
+  color: black;
+}
