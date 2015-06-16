@@ -2,26 +2,15 @@
 
 body {
   margin: 4em;
-  background-color: #544044;
-  color: white;
   font-family: "Quattrocento Sans", sans-serif;
 }
 
 a {
-  color: #50FFF2;
   text-decoration: none;
 }
 
-a:visited{
-  color: #40CCC1;
-}
-
-a:hover {
-  color: #C5FFF8;
-}
-
 h1, h2 {
-  border-bottom: thin solid #73B2B1;
+  border-bottom: thin solid;
 }
 
 ul, li {
@@ -32,7 +21,7 @@ ul, li {
 }
 
 li {
-  border-bottom: medium solid #73B2B1;
+  border-bottom: medium solid;
   padding-top: 1em;
 }
 

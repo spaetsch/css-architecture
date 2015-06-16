@@ -1,0 +1,24 @@
+body {
+  background-color: #544044;
+  color: white;
+}
+
+a {
+  color: #50FFF2;
+}
+
+h1,
+h2,
+li {
+  border-color: #73B2B1;
+}
+
+nav {
+  background-color: #73B2B1;
+}
+
+header,
+main,
+#sidebar {
+  background-color: #73717F;
+}

@@ -3,7 +3,6 @@ header, footer {
 }
 
 header {
-  background-color: #73717F;
 }
 
 footer {
@@ -12,13 +11,11 @@ footer {
 
 main {
   width: 60%;
-  background-color: #73717F;
   float: left;
   padding: 3em;
 }
 
 #sidebar {
-  background-color: #73717F;
   width: 25%;
   float: right;
   padding: 1em;
@@ -27,7 +24,6 @@ main {
 nav {
   padding: 0.5em;
   margin: 0.5em 0;
-  background-color: #73B2B1;
 }
 
 article {
