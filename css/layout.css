@@ -2,22 +2,19 @@ header, footer {
   padding: 2em;
 }
 
-header {
-}
-
 footer {
   clear: both;
 }
 
 main {
-  width: 60%;
-  float: left;
+  margin-left: 0;
+  display: inline;
   padding: 3em;
 }
 
 #sidebar {
-  width: 25%;
-  float: right;
+  margin-right: 0;
+  display: inline;
   padding: 1em;
 }
 

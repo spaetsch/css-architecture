@@ -1,31 +1,62 @@
+/* ------- Contact form module ------- */
 
-/* button bar module */
-
-/* blog post module */
-
-/* merchandise item module */
-
-/* sign in box module */
-
-
-/* share on social media */
-
-
-
-
-
-.buttonset button{
-  height: 3em;
-  width: 10em;
-  display: inline;
-  margin: 1em 0;
-  border-radius: 0;
-  float: left;
+.contact-form {
+  border-width: 1px;
+  padding: 10px;
 }
 
-article .author {
+.contact-form__message-input{
+  min-height: 10em;
+  width: 100%;
+}
+
+.contact-form__button {
+  display: block;
+}
+
+/* Other contact-form classes
+.contact-form__title
+
+.contact-form__name-label
+.contact-form__name-input
+
+.contact-form__email-label
+.contact-form__email-input
+
+.contact-form__phone-label
+.contact-form__phone-input
+
+.contact-form__message-label
+.contact-form__message-input
+*/
+
+
+/* ------------ Blog post module ------------- */
+
+.blog__author {
   text-transform: uppercase;
   margin-top: -1em;
 }
 
+/* other blog classes
+.blog__post
+.blog__title
+*/
 
+
+/* -------- Share on Social Media Module -------- */
+
+
+
+/* ------- Merchandise item module -------- */
+
+
+
+
+
+
+
+/* TODO */
+
+/* button bar module */
+/* sign in box module */
