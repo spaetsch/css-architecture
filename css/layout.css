@@ -30,6 +30,10 @@ nav {
   background-color: #73B2B1;
 }
 
+article {
+  display: inline-block;
+}
+
 
 
 

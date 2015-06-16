@@ -20,15 +20,18 @@ a:hover {
   color: #C5FFF8;
 }
 
-ul,li {
+h1, h2 {
+  border-bottom: thin solid #73B2B1;
+}
+
+ul, li {
   list-style-type: none;
-  list-style-position:inside;
-  margin:0;
-  padding:0;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  list-style-type: none;
   border-bottom: medium solid #73B2B1;
   padding-top: 1em;
 }

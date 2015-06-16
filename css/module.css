@@ -47,5 +47,20 @@ button {
   border-radius: 5px;
 }
 
+.buttonset button{
+  height: 3em;
+  width: 10em;
+  display: inline;
+  margin: 1em 0;
+  border-radius: 0;
+  float: left;
+}
 
+article .author {
+  text-transform: uppercase;
+  margin-top: -1em;
+}
 
+/* -- TODO
+progress bars: percentage and/or time
+forms: sign-in box, subscribe box  --*/
