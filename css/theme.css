@@ -2,20 +2,18 @@ body {
   background-color: #544044;
   color: white;
   font-family: 'Encode-Sans', sans-serif;
-
 }
 
 a {
   color: #50FFF2;
 }
 
-
-h1, h2 {
-  font-family: 'Josefin-Slab', serif;
+h1, h2, h3 {
+  font-family: 'Arvo', serif;
   font-weight: bold;
 }
 
-h1, h2, li {
+h1, h2, h3, li {
   border-color: #73B2B1;
 }
 

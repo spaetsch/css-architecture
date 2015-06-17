@@ -2,6 +2,11 @@ header, footer {
   padding: 2em;
 }
 
+header{
+  margin-left: 4%;
+
+}
+
 footer {
   clear: both;
 }

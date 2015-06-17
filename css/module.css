@@ -73,8 +73,7 @@
 /* ------- Merchandise item module -------- */
 
 .product {
-  background-color: gray;
-  display: inline;
+  background-color: #CFDCDD;
   margin: 5px;
   padding: 5px;
 }
@@ -84,6 +83,10 @@
 .product__button {
   display: block;
   margin: auto;
+}
+
+.product__img {
+  width: 100%;
 }
 
 .product__name{

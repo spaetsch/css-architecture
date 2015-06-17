@@ -19,13 +19,12 @@
     <link rel="stylesheet" href="css/theme.css">
   </head>
   <body>
-    <header>
+    <header class="twelve columns">
       <p>This is the header</p>
     </header>
-    <nav>
+    <nav class="eleven columns">
       <p>This is the navigation bar</p>
     </nav>
-
     <main class="eight columns">
       <p>This is main</p>
       <form>
@@ -46,63 +45,61 @@
           <button class="contact-form__button" role="button">Send</button>
         </fieldset>
       </form>
+
       <article class="blog__post">
-        <h2 class="blog__title">Blog Post #1 Title</h2>
+        <h3 class="blog__title">Blog Post Title</h3>
         <p class="blog__author">Foober Fooberson</p>
         <p class="blog__text">Katana apophenia receding media cardboard nano-drone digital assassin. Fluidity smart-assault RAF knife shoes nodality boy girl industrial grade dolphin monofilament crypto-motion city. Pen woman sprawl Shibuya film shoes weathered papier-mache plastic augmented reality assassin shanty town fluidity knife franchise Kowloon wonton soup.</p>
         <p class="blog__text">Kanji pen military-grade bicycle physical augmented reality Shibuya skyscraper. Assassin sentient market assault decay monofilament pre-concrete order-flow. Lights nodal point-space soul-delay wonton soup silent bridge 3D-printed meta-hacker order-flow towards monofilament DIY. Tiger-team systema meta-geodesic futurity render-farm katana rifle. Dissident spook dolphin Kowloon numinous claymore mine uplink.</p>
-        <div class="share">
+        <section class="share">
           <p class="share__heading">Share on:
           <span class="share__badge icon-twitter2"></span>
           <span class="share__badge icon-facebook2"></span>
           <span class="share__badge icon-pinterest2"></span>
           <span class="share__badge icon-tumblr2"></span>
           <span class="share__badge icon-google-plus2"></span>
-        </div>
+        </section>
       </article>
 
-      <div class="product four columns">
+      <section class="product four columns">
         <p class="product__name">Item Name #1</p>
-        <img class="product__img" src="http://placehold.it/150x150">
+        <img class="product__img" src="img/bottles.jpg">
         <p class="product__price">$19.99</p>
         <button class="product__button">Buy!</button>
-      </div>
+      </section>
 
-      <div class="product four columns">
+      <section class="product four columns">
         <p class="product__name">Item Name #2</p>
-        <img class="product__img" src="http://placehold.it/150x150">
+        <img class="product__img" src="img/eggs.jpg">
         <p class="product__price">$4.99</p>
         <button class="product__button">Buy!</button>
-      </div>
+      </section>
 
-      <div class="product four columns">
+      <section class="product four columns">
         <p class="product__name">Item Name #3</p>
-        <img class="product__img" src="http://placehold.it/150x150">
+        <img class="product__img" src="img/candle.jpg">
         <p class="product__price">$7.99</p>
         <button class="product__button">Buy!</button>
-      </div>
-
+      </section>
     </main>
-    <div class="three columns" id="sidebar">
-      <p>This is the sidebar</p>
 
-      <div class="product">
-        <h2>Product of the Month</h2>
+    <section class="three columns" id="sidebar">
+      <p>This is the sidebar</p>
+      <h2>Product of the Month</h2>
+      <section class="product">
         <p class="product__name">Item Name #2</p>
-        <img class="product__img" src="http://placehold.it/150x150">
+        <img class="product__img" src="img/candle.jpg">
         <p class="product__price">$4.99</p>
         <button class="product__button">Buy!</button>
-      </div>
-
-      <div class="share">
+      </section>
+      <section class="share">
         <p class="share__heading">Share on social media!</p>
         <span class="share__badge__large icon-twitter2"></span>
         <span class="share__badge__large icon-facebook2"></span>
         <span class="share__badge__large icon-pinterest2"></span>
         <span class="share__badge__large icon-tumblr2"></span>
         <span class="share__badge__large icon-google-plus2"></span>
-      </div>
-
+      </section>
       <p>Here's an unordered list:</p>
       <ul>
         <li>List item</li>
@@ -110,9 +107,7 @@
         <li>List item again</li>
         <li>List item</li>
       </ul>
-
-    </div>
-
+    </section>
 
     <footer>This is the footer</footer>
   </body>
