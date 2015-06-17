@@ -22,8 +22,8 @@ nav, button {
 }
 
 header,
-main,
-#sidebar {
+.core,
+.sidebar {
   background-color: #73717F;
 }
 

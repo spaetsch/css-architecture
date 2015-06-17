@@ -3,22 +3,21 @@ header, footer {
 }
 
 header{
-  margin-left: 4%;
-
+  height:20em;
 }
 
 footer {
   clear: both;
 }
 
-main {
-  display: inline;
+.core {
   padding: 3em;
 }
 
-#sidebar {
-  display: inline;
+.sidebar {
   padding: 1em;
+  height: 100%;
+  display: inline-block;
 }
 
 nav {
@@ -27,9 +26,17 @@ nav {
 }
 
 article {
-  display: inline-block;
 }
 
+.stripe,
+.stripe2
+ {
+  height:45em;
+  clear:both;
 
+}
 
+.stripe2 {
+  padding:5em;
+}
 
