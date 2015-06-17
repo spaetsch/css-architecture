@@ -33,11 +33,18 @@
 
 /* ------------ Blog post module ------------- */
 
+.blog__post {
+  margin:3em;
+}
+
 .blog__author {
   text-transform: uppercase;
   margin-top: -1em;
 }
 
+.blog__text {
+  margin:1em;
+}
 /* other blog classes
 .blog__post
 .blog__title
@@ -47,25 +54,28 @@
 /* -------- Share on Social Media Module -------- */
 
 .share__heading{
-  margin-bottom:0;
+  margin:0;
 }
 
 .share__badge{
+  font-size: 1.2em;
+}
+
+.share__badge__large{
   font-size: 2em;
 }
 
 .share {
-  padding:2px;
-  margin:20px;
+  padding: 2px;
+  margin: 20px;
 }
 
 /* ------- Merchandise item module -------- */
 
 .product {
-  background-color: gray;
-  display:inline;
-  margin:5px;
-  padding:5px;
+  background-color: #CFDCDD;
+  margin: 5px;
+  padding: 5px;
 }
 
 .product__img,
@@ -74,6 +84,11 @@
   display: block;
   margin: auto;
 }
+
+.product__img {
+  width: 100%;
+}
+
 .product__name{
   font-style: italic;
 }

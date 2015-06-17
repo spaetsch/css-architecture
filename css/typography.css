@@ -1,26 +1,26 @@
 /* --- Fonts for headings --- */
 
 @font-face {
-  font-family: 'Josefin-Slab';
-  src: url('../fonts/josefin-slab/JosefinSlab-Regular.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo/Arvo-Regular_201.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin-Slab';
-  src: url('../fonts/josefin-slab/JosefinSlab-Italic.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo/Arvo-Italic_201.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Josefin-Slab';
-  src: url('../fonts/josefin-slab/JosefinSlab-Bold.ttf') format('truetype');
+ font-family: 'Arvo';
+  src: url('../fonts/arvo/Arvo-Bold_201.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin-Slab';
-  src: url('../fonts/josefin-slab/JosefinSlab-BoldItalic.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo/Arvo-BoldItalic_201.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
