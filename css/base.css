@@ -14,7 +14,11 @@ h1, h2, h3 {
   border-bottom: none;
   line-height: 2em;
   padding: 3em;
+}
 
+.sidebar-text{
+  border-bottom: none;
+  line-height: 1.5em;
 }
 
 ul, li {

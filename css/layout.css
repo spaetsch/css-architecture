@@ -3,7 +3,7 @@ header, footer {
 }
 
 header{
-  height:15em;
+  height: 15em;
 }
 
 footer {
@@ -16,7 +16,6 @@ footer {
 
 .sidebar {
   padding: 1em;
-  height: 100%;
 }
 
 nav {
@@ -26,12 +25,12 @@ nav {
 
 .stripe1,
 .stripe2 {
-  height:50em;
-  clear:both;
+  height: 50em;
+  clear: both;
 }
 .stripe0 {
-  height:37em;
-  clear:both;
+  height: 37em;
+  clear: both;
 }
 
 @media only screen and (min-width: 320px) {
@@ -41,11 +40,17 @@ nav {
     -moz-columns: 2;
   }
 }
-@media only screen and (min-width: 550px) {
 
+@media only screen and (min-width: 550px) {
   ul{
     columns:1;
     -webkit-columns: 1;
     -moz-columns: 1;
   }
+  .core, .sidebar {
+    height:100%;
+  }
 }
+
+
+
