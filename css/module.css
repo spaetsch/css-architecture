@@ -92,10 +92,15 @@
   font-style: italic;
 }
 
-.product__button{
-  font-size: larger;
-}
 
+
+
+
+
+.sidebar__img {
+  width: 100%;
+
+}
 
 
 /* TODO */

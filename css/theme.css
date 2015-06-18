@@ -9,7 +9,7 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: 'Arvo', serif;
+  font-family: 'Josefin-Sans', serif;
   font-weight: bold;
 }
 
@@ -17,11 +17,11 @@ h1, h2, h3, li {
   border-color: #73B2B1;
 }
 
-nav, button {
+button, header {
   background-color: #73B2B1;
 }
 
-header,
+
 .core,
 .sidebar {
   background-color: #73717F;
