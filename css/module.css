@@ -34,7 +34,6 @@
 /* ------------ Blog post module ------------- */
 
 .blog__post {
-  margin:3em;
 }
 
 .blog__author {
@@ -93,13 +92,5 @@
   font-style: italic;
 }
 
-.product__button{
-  font-size: larger;
-}
 
 
-
-/* TODO */
-
-/* button bar module */
-/* sign in box module */

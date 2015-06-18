@@ -10,6 +10,12 @@ h1, h2, h3 {
   border-bottom: thin solid;
 }
 
+.stripe-text{
+  border-bottom: none;
+  line-height: 2em;
+  padding: 3em;
+}
+
 ul, li {
   list-style-type: none;
   list-style-position: inside;
@@ -27,12 +33,16 @@ fieldset {
   border-radius: 5px;
 }
 
+button {
+  min-width: 90px;
+  width:50%;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
   height: 1.5em;
-  width: 30em;
   border: 1px solid;
   border-radius: 5px;
   margin-bottom: 1em;
