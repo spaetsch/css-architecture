@@ -1,0 +1,48 @@
+sci3
+<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+
+
+logo 1
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" r="106.887792" cy="178" cx="181" stroke-width="5" stroke="#000000" fill="none"/>
+  <circle id="svg_2" r="92.633687" cy="190" cx="178" stroke-width="5" stroke="#000000" fill="none"/>
+  <line id="svg_3" y2="280" x2="187" y1="107" x1="218" stroke-width="5" stroke="#000000" fill="none"/>
+  <line id="svg_5" y2="266" x2="127" y1="109" x1="216" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#000000" fill="none"/>
+ </g>
+</svg>
+
+
+
+
+logo with text
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" r="106.887792" cy="178" cx="181" stroke-width="5" stroke="#000000" fill="none"/>
+  <circle id="svg_2" r="92.633687" cy="190" cx="178" stroke-width="5" stroke="#000000" fill="none"/>
+  <line id="svg_3" y2="280" x2="187" y1="107" x1="218" stroke-width="5" stroke="#000000" fill="none"/>
+  <line id="svg_5" y2="266" x2="127" y1="109" x1="216" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <text font-style="italic" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="35" id="svg_6" y="329" x="183" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">Sunstream</text>
+ </g>
+</svg>
+
+
+complicated path
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" d="m0.99916,160.814606l22.678857,-106.776855l91.820862,-47.520176l91.820976,47.520176l22.679306,106.776855l-63.543869,85.628891l-101.912743,0l-63.543389,-85.628891l0,0z" id="svg_6"/>
+  <circle fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" cx="539" cy="214" r="72.006943" id="svg_7"/>
+  <line id="svg_10" y2="262" x2="483" y1="56" x1="209" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <line transform="rotate(0.42128491401672363 332.50000000000614,199.00000000000284) " id="svg_11" y2="150" x2="500" y1="248" x1="165" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#000000" fill="none"/>
+ </g>
+</svg>
