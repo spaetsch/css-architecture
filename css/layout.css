@@ -16,15 +16,7 @@ img {
 
 /* Grid */
 
-.sidebar {
-  width: 20%;
-  float: right;
-  padding: 1em;
-}
 
-.withsidebar {
-  width: 80%;
-}
 
 .righthalf{
   width: 50%;
@@ -53,32 +45,6 @@ img {
 .hiddentext:hover {
   opacity: .7;
 }
-
-/* transition stuff
-
-  -webkit-transition: opacity ease 1s;
-  -moz-transition: opacity ease 1s;
-  -o-transition: opacity ease 1s;
-  transition: opacity ease 1s;
-
-
-.lefthalf:hover{
-  opacity:0.2;
-}
-
-.hiddentext{
-  height:100%;
-  opacity:0;
-  -webkit-transition: opacity ease 1s;
-  -moz-transition: opacity ease 1s;
-  -o-transition: opacity ease 1s;
-  transition: opacity ease 1s;
-}
-
-.hiddentext:hover{
-  opacity:1;
-}
-*/
 
 /* Stripes */
 
@@ -131,6 +97,9 @@ img {
     -webkit-columns: 2;
     -moz-columns: 2;
   }
+  .sidebar, .withsidebar {
+    width:100%;
+  }
 }
 
 @media only screen and (min-width: 550px) {
@@ -142,6 +111,16 @@ img {
   .sidebar {
     height:100%;
   }
+.sidebar {
+  width: 30%;
+  float: right;
+  padding: 1em;
+}
+
+.withsidebar {
+  width: 70%;
+}
+
 }
 
 
