@@ -24,14 +24,14 @@ h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
 /* Grid */
 
 .righthalf{
-  width: 50%;
-  float: right;
+  /*width: 50%;
+  float: right;*/
   height: 100%;
 }
 
 .lefthalf {
-  width: 50%;
-  float: left;
+  /*width: 50%;
+  float: left;*/
   height: 100%;
 }
 
@@ -88,18 +88,18 @@ h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
 
 /* Media Queries */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) { /*phones */
   ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
   }
-  .sidebar, .withsidebar {
+  .sidebar, .withsidebar, .lefthalf, .righthalf {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 550px) { /* phablet or bigger */
   ul{
     columns:1;
     -webkit-columns: 1;
@@ -115,6 +115,18 @@ h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
   .withsidebar {
     width: 70%;
   }
+
+  .lefthalf{
+  width: 50%;
+  float: left;
+
+  }
+  .righthalf{
+  width: 50%;
+  float: right;
+
+  }
+
   h1 { font-size: 3.0rem; }
   h2 { font-size: 2.2rem; }
   h3 { font-size: 1.6rem; }
