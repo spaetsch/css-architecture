@@ -8,6 +8,8 @@ footer {
 }
 
 .sidebar {
+  width:20%;
+  float:right;
   padding: 1em;
 }
 
@@ -20,10 +22,67 @@ nav {
   margin: 0.5em 0;
 }
 
+
+
 .stripe1,
-.stripe2 {
+.stripe2,
+.stripe3 {
   height: 50em;
   clear: both;
+}
+
+.righthalf{
+  width:50%;
+  float:right;
+  height:100%;
+}
+
+.lefthalf {
+  width:50%;
+  float:left;
+  height:100%;
+  -webkit-transition: opacity ease 1s;
+  -moz-transition: opacity ease 1s;
+  -o-transition: opacity ease 1s;
+  transition: opacity ease 1s;
+  }
+
+.lefthalf:hover{
+  opacity:0.2;
+}
+
+.hiddentext{
+  height:100%;
+  opacity:0;
+  -webkit-transition: opacity ease 1s;
+  -moz-transition: opacity ease 1s;
+  -o-transition: opacity ease 1s;
+  transition: opacity ease 1s;
+}
+
+.hiddentext:hover{
+  opacity:1;
+}
+
+.stripe__img{
+  display:block;
+  width:100%;
+}
+
+.stripe1 {
+  background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
+}
+
+.stripe2 .lefthalf{
+  background:url(../img/bgd/storm-s.jpg) no-repeat center;
+}
+
+.stripe2 .righthalf{
+  background:url(../img/bgd/cityblur-s.jpg) no-repeat center;
+}
+
+.stripe3 {
+  background:url(../img/bgd/books-s.jpg) no-repeat center;
 }
 
 @media only screen and (min-width: 320px) {
