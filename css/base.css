@@ -10,12 +10,7 @@ h1, h2, h3 {
   border-bottom: thin solid;
 }
 
-.stripe-text{
-  border-bottom: none;
-  line-height: 2.5em;
-  margin-top:0;
-  padding: 6em 2em;
-}
+
 
 ul, li {
   list-style-type: none;
