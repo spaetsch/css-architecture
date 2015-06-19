@@ -21,7 +21,6 @@ button, header {
   background-color: #73B2B1;
 }
 
-.core,
 .sidebar {
   background-color: #73717F;
 }
@@ -33,4 +32,16 @@ textarea {
   background-color: #fff;
   border-color: #D1D1D1;
   color: black;
+}
+
+.aqua {
+  background: #73B2B1;
+}
+
+.purple {
+  background: #73717F;
+}
+
+.gray {
+  background: gray;
 }
