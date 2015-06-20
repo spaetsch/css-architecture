@@ -35,16 +35,13 @@ img {
   flex-wrap: wrap;
 }
 
-/*
-.sidebar, .withsidebar, .full, .half{
-  height: 45em;
-}*/
-
 .stripeheight {
   height:45em;
 }
 
-.withsidebar, .full, .half, .ministripe {
+/*.withsidebar, .full, .half, .ministripe, .spinner*/
+
+.aligncenter {
   display: flex;
   align-items: center;
 }
