@@ -39,6 +39,7 @@ img {
 
 .bgd__logo {
   background-image: url(../img/scientific3.svg);
+  background-size: cover;
 
 }
 /* Misc */
@@ -63,7 +64,7 @@ body{
 }
 
 .twenty {
-  width:15%;
+  width:20%;
 }
 
 /*Flexbox*/
@@ -81,7 +82,7 @@ body{
   height: 45em;
 }
 
-.withsidebar, .full, .half, .ministripe{
+.withsidebar, .full, .half, .ministripe, .eighty, .twenty{
   display: flex;
   align-items: center;
   /*justify-content: center;*/

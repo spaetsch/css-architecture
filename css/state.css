@@ -35,47 +35,27 @@ button:hover {
 }
 
 
-
-
-.spinnerContainer {
-  border-radius: 50%;
-  width:200px;
-  height:200px;
-  overflow:hidden;
-  margin:20px;
-
-  -webkit-animation: spin 15s linear 0s infinite reverse;
-  -moz-animation: spin 15s linear 0s infinite reverse;
-  -ms-animation: spin 15s linear 0s infinite reverse;
-  -o-animation: spin 15s linear 0s infinite reverse;
-  animation: spin 15s linear 0s infinite reverse;
-
-  -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  -ms-animation-play-state: paused;
-  -o-animation-play-state: paused;
-  animation-play-state: paused;
-}
 .spinner {
-  width:200px;
-  height:200px;
+  width: 100%;
   border-radius: 50%;
-  background-repeat:no-repeat;
-  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 
   -webkit-animation: spin 6s linear 0s infinite normal;
   -moz-animation: spin 6s linear 0s infinite normal;
   -ms-animation: spin 6s linear 0s infinite normal;
   -o-animation: spin 6s linear 0s infinite normal;
-  animation: spin 6s linear 0s infinite normal;*/
+  animation: spin 6s linear 0s infinite normal;
 }
-.spinnerContainer:hover {
-  -webkit-animation-play-state: running;
-  -moz-animation-play-state: running;
-  -ms-animation-play-state: running;
-  -o-animation-play-state: running;
-  animation-play-state: running;
+.spinner:hover {
+  -webkit-animation: spin 6s linear 0s infinite reverse;
+  -moz-animation: spin 6s linear 0s infinite reverse;
+  -ms-animation: spin 6s linear 0s infinite reverse;
+  -o-animation: spin 6s linear 0s infinite reverse;
+  animation: spin 6s linear 0s infinite reverse;
 }
+
+
 @keyframes spin {
   0% { transform: rotate(360deg); }
   100% { transform: rotate(0deg); }
