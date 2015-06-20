@@ -37,6 +37,10 @@ img {
   background-size: cover;
 }
 
+.bgd__logo {
+  background-image: url(../img/scientific3.svg);
+
+}
 /* Misc */
 
 body{
@@ -52,6 +56,14 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 20em
+}
+
+.eighty {
+  width:80%;
+}
+
+.twenty {
+  width:15%;
 }
 
 /*Flexbox*/
