@@ -6,7 +6,7 @@ body{
 
 footer {
   padding: 2em;
-  clear: both;
+  display: flex;
 }
 
 nav {

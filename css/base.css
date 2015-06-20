@@ -10,8 +10,6 @@ h1, h2, h3 {
   border-bottom: thin solid;
 }
 
-
-
 ul, li {
   list-style-type: none;
   list-style-position: inside;
@@ -22,6 +20,10 @@ ul, li {
 li {
   border-bottom: medium solid;
   padding-top: 1em;
+}
+
+footer {
+  border-top: thin solid;
 }
 
 button,
