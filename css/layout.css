@@ -37,25 +37,43 @@ img {
   background-size: cover;
 }
 
-/* Flexbox */
+/* Misc */
 
 body{
   margin:0;
 }
 
+.ministripe {
+  height:5em;
+  width:100%;
+}
+
+.centerblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
+}
+
+/*Flexbox*/
+
 .flex-container {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+ /* justify-content: space-around;
   align-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-start;*/
 }
 
 .sidebar, .withsidebar, .full, .half{
   height: 45em;
 }
 
+.withsidebar, .full, .half, .ministripe{
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
 
 /* Media Queries */
 
@@ -90,37 +108,11 @@ body{
   }
 }
 
-.ministripe {
-  height:5em;
-  width:100%;
-  background: purple;
-}
-
-/* Typography */
-/*
-h1 { font-size: 2.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 1.8rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
-
-
-/* Grid */
-/*
-.righthalf{
-  /*width: 50%;
-  float: right;*/
- /* height: 100%;
-}
-
-.lefthalf {
-  /*width: 50%;
-  float: left;*/
-/*  height: 100%;
-}
-
 /* Transition */
-/*
+
 .hiddentext{
   height: 100%;
+  padding: 5em;
   opacity: 0;
   background: #73B2B1;
   -webkit-transition: opacity ease 1s;
@@ -132,43 +124,22 @@ h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
 .hiddentext:hover {
   opacity: .7;
 }
-*/
-/* Stripes */
-/*.stripe0,
-.stripe1,
-.stripe2,
-.stripe3 {
-  height: 50em;
-}
-*//*
-.stripe-small {
-  height: 6em;
+
+/* Utility */
+.no-border {
+  border: none;
 }
 
-.stripe-small-text{
-  border-bottom: none;
-  text-align: center;
+.no-topmargin {
+  margin-top: 0;
 }
 
-.withsidebar {
-  background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
-}
+/* Typography */
 /*
-.stripe1 {
-  background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
-}
+h1 { font-size: 2.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 1.8rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
 
-.stripe2 .lefthalf{
-  background:url(../img/bgd/storm-s.jpg) no-repeat center;
-}
-
-.stripe2 .righthalf{
-  background:url(../img/bgd/cityblur-s.jpg) no-repeat center;
-}
-
-.stripe3 {
-  background:url(../img/bgd/books-s.jpg) no-repeat center;
-}
 
 
 /* Media Queries */
@@ -212,7 +183,7 @@ height:50em;
   float: right;
 
   }*/
-
+/*
   h1 { font-size: 3.0rem; }
   h2 { font-size: 2.2rem; }
   h3 { font-size: 1.6rem; }
@@ -220,13 +191,6 @@ height:50em;
 }
 
 
-/* utility */
-.no-border {
-  border: none;
-}
 
-.no-topmargin {
-  margin-top: 0;
-}
 
 
