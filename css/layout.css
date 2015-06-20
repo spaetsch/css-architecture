@@ -23,6 +23,10 @@ img {
   width:100%;
 }
 
+.sidebar {
+  padding:1em;
+}
+
 /*Flexbox*/
 
 .flex-container {
@@ -31,11 +35,16 @@ img {
   flex-wrap: wrap;
 }
 
+/*
 .sidebar, .withsidebar, .full, .half{
   height: 45em;
+}*/
+
+.stripeheight {
+  height:45em;
 }
 
-.withsidebar, .full, .half, .ministripe, .eighty, .twenty{
+.withsidebar, .full, .half, .ministripe {
   display: flex;
   align-items: center;
 }
@@ -103,11 +112,12 @@ img {
 .centerblock {
   margin-left: auto;
   margin-right: auto;
-  width: 20em
+  padding: 1em;
 }
 
 .eighty {
-  width:80%;
+  width: 80%;
+  padding: 3em;
 }
 
 .twenty {
