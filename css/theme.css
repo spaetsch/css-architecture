@@ -34,6 +34,33 @@ textarea {
   color: black;
 }
 
+/* Backgrounds */
+
+.bgd__lights {
+  background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bgd__city {
+  background:url(../img/bgd/cityblur-s.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bgd__storm {
+  background:url(../img/bgd/storm-s.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bgd__books {
+  background:url(../img/bgd/books-s.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bgd__logo {
+  background-image: url(../img/scientific3.svg);
+  background-size: cover;
+}
+
 .aqua {
   background: #73B2B1;
 }
@@ -42,6 +69,6 @@ textarea {
   background: #73717F;
 }
 
-.gray {
-  background: gray;
+.plum {
+  background: #544044;
 }

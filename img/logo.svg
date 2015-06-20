@@ -1,11 +1,9 @@
 <svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <g>
-  <title>Layer 1</title>
   <circle id="svg_1" r="106.887794" cy="123" cx="126" stroke-width="5" stroke="white" fill="none"/>
   <circle id="svg_2" r="92.63369" cy="135" cx="123" stroke-width="5" stroke="#73B2B1" fill="none"/>
   <line id="svg_3" y2="225" x2="132" y1="52" x1="163" stroke-width="5" stroke="#73B2B1" fill="none"/>
   <line id="svg_5" y2="211" x2="72" y1="54" x1="161" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#73B2B1" fill="none"/>
-
  </g>
 </svg>

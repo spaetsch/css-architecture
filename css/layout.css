@@ -1,5 +1,9 @@
 /* Basic Elements */
 
+body{
+  margin: 0;
+}
+
 footer {
   padding: 2em;
   clear: both;
@@ -14,57 +18,9 @@ img {
   width: 100%;
 }
 
-/* Backgrounds */
-
-.bgd__lights {
-  background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.bgd__city {
-  background:url(../img/bgd/cityblur-s.jpg) no-repeat center;
-  background-size: cover;
-
-}
-
-.bgd__storm {
-  background:url(../img/bgd/storm-s.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.bgd__books {
-  background:url(../img/bgd/books-s.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.bgd__logo {
-  background-image: url(../img/scientific3.svg);
-  background-size: cover;
-
-}
-/* Misc */
-
-body{
-  margin:0;
-}
-
 .ministripe {
   height:5em;
   width:100%;
-}
-
-.centerblock {
-  margin-left: auto;
-  margin-right: auto;
-  width: 20em
-}
-
-.eighty {
-  width:80%;
-}
-
-.twenty {
-  width:20%;
 }
 
 /*Flexbox*/
@@ -73,9 +29,6 @@ body{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
- /* justify-content: space-around;
-  align-content: flex-start;
-  align-items: flex-start;*/
 }
 
 .sidebar, .withsidebar, .full, .half{
@@ -85,7 +38,6 @@ body{
 .withsidebar, .full, .half, .ministripe, .eighty, .twenty{
   display: flex;
   align-items: center;
-  /*justify-content: center;*/
 }
 
 /* Media Queries */
@@ -139,6 +91,7 @@ body{
 }
 
 /* Utility */
+
 .no-border {
   border: none;
 }
@@ -147,63 +100,16 @@ body{
   margin-top: 0;
 }
 
-/* Typography */
-/*
-h1 { font-size: 2.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 1.8rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 1.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
-
-
-
-/* Media Queries */
-/*
-@media only screen and (min-width: 320px) { /*phones */
-/*  ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }/*
-  .sidebar, .withsidebar, .lefthalf, .righthalf {
-    width: 100%;
-  }*/
-/*}
-
-@media only screen and (min-width: 550px) { /* phablet or bigger */
- /* ul{
-    columns:1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
-  /*
-  .sidebar {
-    height:50em;
-    width: 30%;
-    float: right;
-    padding: 1em;
-  }
-
-  .withsidebar {
-height:50em;
-  }
-
-  .lefthalf{
-  width: 50%;
-  float: left;
-
-  }
-  .righthalf{
-  width: 50%;
-  float: right;
-
-  }*/
-/*
-  h1 { font-size: 3.0rem; }
-  h2 { font-size: 2.2rem; }
-  h3 { font-size: 1.6rem; }
-
+.centerblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
 }
 
+.eighty {
+  width:80%;
+}
 
-
-
-
+.twenty {
+  width:20%;
+}
