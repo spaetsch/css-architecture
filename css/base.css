@@ -10,12 +10,6 @@ h1, h2, h3 {
   border-bottom: thin solid;
 }
 
-.stripe-text{
-  border-bottom: none;
-  line-height: 2em;
-  padding: 3em;
-}
-
 ul, li {
   list-style-type: none;
   list-style-position: inside;
@@ -28,14 +22,18 @@ li {
   padding-top: 1em;
 }
 
+footer {
+  border-top: thin solid;
+}
+
 button,
 fieldset {
   border-radius: 5px;
 }
 
 button {
-  min-width: 90px;
-  width:50%;
+  min-width: 3em;
+  width: 50%;
 }
 
 input[type="text"],

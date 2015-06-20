@@ -18,3 +18,61 @@ button:focus,
 button:hover {
   background-color: #50FFF2;
 }
+
+
+/* Animations */
+
+.path {
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.spinner {
+  width: 100%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  -webkit-animation: spin 6s linear 0s infinite normal;
+  -moz-animation: spin 6s linear 0s infinite normal;
+  -ms-animation: spin 6s linear 0s infinite normal;
+  -o-animation: spin 6s linear 0s infinite normal;
+  animation: spin 6s linear 0s infinite normal;
+}
+.spinner:hover {
+  -webkit-animation: spin 6s linear 0s infinite reverse;
+  -moz-animation: spin 6s linear 0s infinite reverse;
+  -ms-animation: spin 6s linear 0s infinite reverse;
+  -o-animation: spin 6s linear 0s infinite reverse;
+  animation: spin 6s linear 0s infinite reverse;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% {-ms-transform: rotate(360deg); }
+  100% { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(360deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(360deg); }
+  100% { -o-transform: rotate(0deg); }
+}
