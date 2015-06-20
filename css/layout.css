@@ -19,18 +19,18 @@ img {
 }
 
 .ministripe {
-  height:5em;
-  width:100%;
+  height: 5em;
+  width: 100%;
 }
 
 .sidebar {
-  padding:1em;
+  padding: 1em;
 }
 
 /*Flexbox*/
 
 .flex-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -38,8 +38,6 @@ img {
 .stripeheight {
   height:45em;
 }
-
-/*.withsidebar, .full, .half, .ministripe, .spinner*/
 
 .aligncenter {
   display: flex;
