@@ -39,7 +39,7 @@ img {
 
 /* Media Queries */
 
-@media only screen and (min-width: 320px) { /*phones */
+@media only screen and (min-width: 20em) { /*phones */
   .sidebar, .withsidebar, .full, .half{
      width: 100%;
   }
@@ -49,7 +49,7 @@ img {
     -moz-columns: 2;
   }
 }
-@media only screen and (min-width: 550px) { /* phablet or bigger */
+@media only screen and (min-width: 45em) { /* phablet or bigger */
  .withsidebar {
     width: 80%;
   }
