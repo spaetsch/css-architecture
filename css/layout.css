@@ -3,26 +3,21 @@
 body{
   margin: 0;
 }
-
 footer {
   padding: 2em;
   display: flex;
 }
-
 nav {
   padding: 0.5em;
   margin: 0.5em 0;
 }
-
 img {
   width: 100%;
 }
-
 .ministripe {
   height: 5em;
   width: 100%;
 }
-
 .sidebar {
   padding: 1em;
 }
@@ -34,11 +29,9 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .stripeheight {
-  height:45em;
+  height: 45em;
 }
-
 .aligncenter {
   display: flex;
   align-items: center;
@@ -56,7 +49,6 @@ img {
     -moz-columns: 2;
   }
 }
-
 @media only screen and (min-width: 550px) { /* phablet or bigger */
  .withsidebar {
     width: 80%;
@@ -89,7 +81,6 @@ img {
   -o-transition: opacity ease 1s;
   transition: opacity ease 1s;
 }
-
 .hiddentext:hover {
   opacity: .7;
 }
@@ -99,22 +90,18 @@ img {
 .no-border {
   border: none;
 }
-
 .no-topmargin {
   margin-top: 0;
 }
-
 .centerblock {
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
 }
-
 .eighty {
   width: 80%;
   padding: 3em;
 }
-
 .twenty {
   width:20%;
 }

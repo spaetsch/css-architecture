@@ -1,11 +1,9 @@
 a:visited{
   color: #40CCC1;
 }
-
 a:hover {
   color: #C5FFF8;
 }
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
@@ -13,7 +11,6 @@ textarea:focus {
   border: 1px solid #33C3F0;
   outline: 0;
 }
-
 button:focus,
 button:hover {
   background-color: #50FFF2;
@@ -27,14 +24,11 @@ button:hover {
   stroke-dashoffset: 2500;
   animation: dash 5s linear infinite;
 }
-
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
   }
 }
-
-
 .spinner {
   width: 100%;
   border-radius: 50%;
@@ -54,8 +48,6 @@ button:hover {
   -o-animation: spin 6s linear 0s infinite reverse;
   animation: spin 6s linear 0s infinite reverse;
 }
-
-
 @keyframes spin {
   0% { transform: rotate(360deg); }
   100% { transform: rotate(0deg); }

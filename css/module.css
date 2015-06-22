@@ -4,12 +4,10 @@
   border-width: 1px;
   padding: 10px;
 }
-
 .contact-form__message-input{
   min-height: 10em;
   width: 100%;
 }
-
 .contact-form__button {
   display: block;
 }
@@ -37,7 +35,6 @@
   text-transform: uppercase;
   margin-top: -1em;
 }
-
 .blog__text {
   margin:1em;
 }
@@ -53,15 +50,12 @@
 .share__heading{
   margin:0;
 }
-
 .share__badge{
   font-size: 1.2em;
 }
-
 .share__badge__large{
   font-size: 2em;
 }
-
 .share {
   padding: 2px;
   margin: 20px;
@@ -74,18 +68,15 @@
   margin: 5px;
   padding: 5px;
 }
-
 .product__img,
 .product__price,
 .product__button {
   display: block;
   margin: auto;
 }
-
 .product__img {
   width: 100%;
 }
-
 .product__name{
   font-style: italic;
 }

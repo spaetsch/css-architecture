@@ -3,28 +3,22 @@ body {
   color: white;
   font-family: 'Encode-Sans', sans-serif;
 }
-
 a {
   color: #50FFF2;
 }
-
 h1, h2, h3 {
   font-family: 'Josefin-Sans', sans-serif;
   font-weight: bold;
 }
-
 h1, h2, h3, li, footer {
   border-color: #73B2B1;
 }
-
 button, header {
   background-color: #73B2B1;
 }
-
 .sidebar {
   background-color: #73717F;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -40,35 +34,28 @@ textarea {
   background:url(../img/bgd/fuzzylights-s.jpg) no-repeat center;
   background-size: cover;
 }
-
 .bgd__city {
   background:url(../img/bgd/cityblur-s.jpg) no-repeat center;
   background-size: cover;
 }
-
 .bgd__storm {
   background:url(../img/bgd/storm-s.jpg) no-repeat center;
   background-size: cover;
 }
-
 .bgd__books {
   background:url(../img/bgd/books-s.jpg) no-repeat center;
   background-size: cover;
 }
-
 .bgd__logo {
   background-image: url(../img/scientific3.svg);
   background-size: cover;
 }
-
 .aqua {
   background: #73B2B1;
 }
-
 .purple {
   background: #73717F;
 }
-
 .plum {
   background: #544044;
 }
