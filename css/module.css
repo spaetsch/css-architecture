@@ -81,5 +81,71 @@
   font-style: italic;
 }
 
+/* ----- Nav bar -------*/
+/* Many ideas from http://css-plus.com/2010/06/how-to-make-a-jquery-drop-down-menu-with-a-css-fall-back/ */
+
+/* Targeting both first and second level menus */
+#nav li {
+  float: right;
+  position: relative;
+}
+#nav li a {
+  background: #73717F;
+  display: block;
+  margin: 0 5px 0 0;
+  padding: 5px 8px;
+}
+#nav li a:hover {
+  background: gray;
+  text-decoration: none;
+}
+
+/* Targeting the first level menu */
+#nav {
+  width:100%;
+  padding: 1em 0;
+  z-index: 100;
+  position: absolute;
+}
+
+
+/* Targeting the second level menu */
+#nav li ul {
+  background: #73B2B1;
+  display: none;
+  margin: -3px 0 0 0;
+  width: 200px;
+  position: absolute;
+}
+#nav li ul li {
+  width: 100%
+}
+#nav li ul li a {
+  background: none;
+  border: none;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 0 0 5px;
+}
+#nav li ul li a:hover {
+  background: gray;
+}
+
+/* Third level menu */
+#nav li ul li ul{
+  left: -200px; top: 0;
+}
+
+#nav li.current > a {
+  background: gray;
+}
+/* CSS fallback */
+#nav li:hover > ul.child {
+  display: block;
+}
+#nav li:hover > ul.grandchild  {
+  display: block;
+}
+
 
 

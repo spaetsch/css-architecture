@@ -15,9 +15,43 @@
     <link rel="stylesheet" href="css/module.css">
     <link rel="stylesheet" href="css/state.css">
     <link rel="stylesheet" href="css/theme.css">
+
+
   </head>
   <body>
-    <div class="flex-container">
+      <section>
+        <ul id="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+
+        <li>
+            <a href="#">Products</a>
+            <ul class="child">
+                <li><a href="#">Sock Yarn</a></li>
+                <li><a href="#">Worsted Yarn</a></li>
+                <li><a href="#">Kits</a>
+                    <ul class="grandchild">
+                        <li><a href="#">Knit</a></li>
+                        <li><a href="#">Crochet</a></li>
+                        <li><a href="#">Weaving</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Random Other Stuff</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+            <ul class="child">
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+        </li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </section>
+        <div class="flex-container">
+
       <section class="sidebar">
         <h2>Featured Product</h2>
         <section class="product">
@@ -55,4 +89,6 @@
       </footer>
     </div>
   </body>
+  <script src="js/navbar.js"></script>
+
 </html>
