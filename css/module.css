@@ -140,12 +140,9 @@
   background: gray;
 }
 /* CSS fallback */
-#nav li:hover > ul.child {
+/*#nav li:hover > ul.child {
   display: block;
 }
 #nav li:hover > ul.grandchild  {
   display: block;
-}
-
-
-
+}*/
